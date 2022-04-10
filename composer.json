@@ -1,0 +1,12 @@
+{
+    "name": "hp/desginpattern",
+    "description": "php course desgin pattern",
+    "require": {
+        "phpunit/phpunit": "7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creational\\": "Creational"
+        }
+    }
+}
