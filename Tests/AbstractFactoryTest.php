@@ -13,12 +13,12 @@ class AbstractFactoryTest extends TestCase
     {
         $carfactory = new CarAbstractFactory(200000);
         $mycar = $carfactory->CreateBmwCar();
-       // $this->assertInstanceOf(BmwCar::class, $mycar);
+        $this->assertInstanceOf(BmwCar::class, $mycar);
     }
     public function testCreateBenzCar()
     {
         $carfactory = new CarAbstractFactory(200000);
         $mycar = $carfactory->CreateBenzCar();
-       // $this->assertInstanceOf(BenzCar::class, $mycar);
+       $this->assertInstanceOf(BenzCar::class, $mycar);
     }
 }
