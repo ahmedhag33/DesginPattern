@@ -1,1 +1,1 @@
-C:30:"PHPUnit\Runner\TestResultCache":74:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:1:{s:14:"testCanFreeCar";d:0.004;}}}
+C:30:"PHPUnit\Runner\TestResultCache":137:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:2:{s:34:"testCanCreateAutoMaticCarWithClone";d:0.003;s:31:"testCanCreateManualCarWithClone";d:0;}}}
