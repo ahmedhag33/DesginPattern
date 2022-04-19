@@ -23,6 +23,7 @@ class ComposerStaticInit8c4bbff971573c064b2c54d9e6352ab6
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Structural\\' => 11,
         ),
         'P' => 
         array (
@@ -53,6 +54,10 @@ class ComposerStaticInit8c4bbff971573c064b2c54d9e6352ab6
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Structural\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Structural',
         ),
         'Prophecy\\' => 
         array (
